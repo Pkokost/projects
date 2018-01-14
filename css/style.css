@@ -1,0 +1,147 @@
+
+
+body {
+	font-family: Arial, sans-serif;
+	color: #222222;
+	}
+.header {
+	min-height:100vh;
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+	.nav-link {
+	padding-right:0;
+	margin-right:20px;
+}
+.navbar{
+	padding:0;
+}
+.navbar a {
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	padding-right:0;
+}
+.navbar-brand {
+	margin-top:41px;
+	float:left;
+}	
+.navbar-default .navbar-toggler-icon {
+  background-color: #f00; /* Changes regular toggle color */
+}
+.title_first {
+	color: #fff;
+	text-transform: uppercase;
+	padding-top:15%;
+	padding:left;	
+}
+.title_first .col-sm-12 h1 {
+	padding-left:0;
+}
+.title_first h1 {
+	font-size: 3rem;
+}
+.title_first p {
+	font-size:2rem;
+	text-align:center;
+	padding-left:0;
+}
+.services {
+	text-align:center;
+}
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+	font-weight:bold;
+	margin-bottom:1%
+}
+.btn{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+	outline:none;
+	border-color:none;
+	margin-bottom:10px;
+}
+.btn a {
+	text-decoration:none;
+	color: #484543;
+	padding-left:5%;
+}
+.title {
+	padding-top: 5%;
+}
+.title h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;	
+}
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.row .col-sm-4 {
+	text-align: center;
+}
+.services {
+	padding-bottom:10%;
+}
+.container {
+	text-align:center;
+	max-width:100%;
+}
+.services h3 {
+	font-size: 18px;
+}
+.services p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.portfolio {
+	background-color: #f7f7f7;	
+	padding-bottom:10%;
+}
+.about_us {
+	padding-top:5%;
+}
+.about_us h3 {
+text-transform:uppercase;
+font-size:1.7em;
+font-weight:bold;
+}
+.about_us_wrap {
+	padding-top:80px;
+}
+@media screen and (max-width: 761px){
+	.about_us_wrap {
+		padding-top:10px;
+		text-align:center;
+	}
+}
+@media screen and (min-width: 761px){
+	.about_us_wrap {
+		text-align:right;
+	}
+}
+@media screen and (max-width: 768px){
+	.about_us_text {
+		text-align:center;	
+	}
+}
+
